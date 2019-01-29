@@ -1,0 +1,23 @@
+Exam Blueprint:
+===============
+
+D1 : Monitoring & Reporting - 22%
+D2 : High Availability - 8%
+D3 : Deployment & Provisioning - 14%
+D4 : Storage & Data Management - 12%
+D5 : Security & Compliance - 18%
+D6 : Networking  - 14%
+D7 : Automation & Optimization - 12%
+
+
+About the Exam:
+================
+
+120 Minutes in length
+65 questions
+Results immediately
+Pass Mark - 720/1000
+150$ Price
+MCQ
+2 years valid 
+Scenario based questions
