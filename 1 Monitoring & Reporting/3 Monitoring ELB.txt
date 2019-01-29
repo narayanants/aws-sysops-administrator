@@ -1,0 +1,58 @@
+Monitoring ELB:
+================
+
+* Types:
+
+    * Application  (Layer 7)
+    * Network ( Layer 4)
+    * Classic (ELB)
+
+
+CloudWatch vs CloudTrail:
+========================
+
+CloudWatch - Monitors Performance
+CloudTrail - Monitors API calls
+
+
+4 different ways to monitor Load Balancers:
+=============================================
+
+* CloudWatch Metrics
+* Access Logs
+* Request Tracing
+* CloudTrail logs
+
+
+CloudWatch Metrics:
+====================
+
+
+Access Logs:
+============
+
+* Capture information about requests sent to your load balancer.
+* Access logs can store data where the EC2 instance has been deleted.
+* Optional feature of ELB and is disabled y default
+* Captures and stores them in Amazon S3
+
+
+Request Tracing:
+================
+
+* Track HTTP requests from client to targets
+* Available for Application Load Balancer Only
+
+
+CloudTrail:
+=============
+
+* Track the API calls
+* doesn't track 
+
+
+Summary:
+========
+
+CloudWatch - Monitors Performance
+CloudTrail - Monitors API Calls
