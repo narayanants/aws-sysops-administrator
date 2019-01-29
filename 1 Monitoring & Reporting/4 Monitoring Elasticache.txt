@@ -1,0 +1,77 @@
+Monitoring ElasticCache:
+=========================
+
+* Cache most frequent database queriess
+* ElasticCache consists of 2 engines
+
+    * Memcached
+    * Redis
+
+* 4 different things to look at 
+
+    - CPU Utilization
+    - Swap Usage
+    - Evictions
+    - Concurrent connections
+
+
+Memcached:
+==========
+
+* Handle loads upto 90%
+* Multi-Threaded
+
+Redis:
+======
+
+* Not Multi-Threaded
+* No need to calculate the CPU Utilization of Redis
+
+
+
+Swap Usage:
+============
+
+* Amount of the SWAP file that is used
+* The Swap File is the amount of disk storage space reserved on disk if your comp runs out of RAM
+* Size of swap file = size of RAM
+
+    Memcached:
+    ------------
+
+    * 0 at most times, must not exceed 50Mb
+    * If exceeds 50, increase the memcached_connections_overhead parameter
+    * Amount of memory to be allocated for connection
+
+    Redis:
+    ------
+
+    * no SwapUsage metric.
+    * use reserved-memory usage 
+
+
+Evictions:
+==========
+
+* Evicting a tenant from an aparament building
+
+    Memcached:
+    ----------
+
+    * No recommended settings.
+    * Either ScaleUp or ScaleOut
+
+    Redis:
+    ------
+
+    * No recommended settings
+    * Only Scale out
+
+
+Concurrent connection:
+------------------------
+
+    * no recommended settings
+    * Large and sustained spike in the number of concurrent connections, either mean a spike or your application not releasing connections as it should be.
+
+
