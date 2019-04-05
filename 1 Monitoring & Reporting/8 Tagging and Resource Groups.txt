@@ -1,0 +1,37 @@
+Tagging and Resource Groups:
+============================
+
+Tags:
+=====
+
+    * K:V attached to AWS resources
+    * Metadata (data about data)
+
+    * Tags can sometimes be inherited
+     - Autoscaling,CloudFormation and Elastic Beanstalk can create other resources.
+
+Resource Groups:
+================
+
+* Make it easy to group resources using the tags that are assigned to them.
+* Group resources that share one or more tags
+
+Resource Groups contains information such as :
+
+    * Region
+    * Name 
+    * Health Checks
+    
+Specific Info:
+
+    - For EC2 - Public and Private IP's
+    - For ELB - Port configurations
+    - For RDS - Database Engine etc
+
+
+Types of Resource Group:
+========================
+
+    * Classic Resource Group
+    * AWS Systems Manager
+
