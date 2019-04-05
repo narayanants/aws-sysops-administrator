@@ -1,0 +1,51 @@
+AWS Organizations:
+===================
+
+* Manage multiple AWS accounts at once.
+
+Features:
+==========
+
+* Centrally manage Policies across multiple AWS accounts
+* Control access to AWS Services
+* Automate AWS account creation and Management
+* Consolidate Billing Across multiple AWS accounts
+
+
+Central Management:
+====================
+
+* Manage multiple AWS accounts
+* Create Groups of accounts and then attach policies to that Group to ensure that correct policies are applied.
+* Centrally Manage policies across multiple accounts.
+
+
+Control Access:
+===============
+
+* Create Service Control Policies (SCP's) That centrally control AWS service across multiple AWS accounts.
+* Allow or Deny Individual AWS Service.
+
+Automate AWS Account Creation:
+==============================
+
+* AWS Organizations APIs to automate the creation and management of new accounts.
+* Organizations enable you to create new accounts programmatically and to add the new accounts in the group.
+* The policies attached to that group are automatically applied to the new account.
+
+
+Consolidated Billing:
+======================
+
+* Single Payment method for all AWS accounts in your organization through consolidated billing.
+* With consolidated billing, you can see a combined view of charges incurred by all your accounts , as well as take advantage of pricing benefits from aggregated usage.
+
+
+
+Exam Tips:
+===========
+
+* Centrally manage Policies across multiple AWS accounts
+* Control access to AWS Services
+* Automate AWS account creation and Management
+* Consolidate Billing Across multiple AWS accounts
