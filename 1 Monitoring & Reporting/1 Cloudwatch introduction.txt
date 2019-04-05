@@ -1,5 +1,5 @@
 CloudWatch Introduction:
-=========================
+========================
 
 * Monitoring service to monitor AWS resources, as well as apps that run on AWS
 
