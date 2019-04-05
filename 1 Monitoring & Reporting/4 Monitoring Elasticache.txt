@@ -19,6 +19,7 @@ Memcached:
 ==========
 
 * Handle loads upto 90%
+* If it exceed 90% we need to add more nodes to the cluster
 * Multi-Threaded
 
 Redis:
@@ -26,6 +27,8 @@ Redis:
 
 * Not Multi-Threaded
 * No need to calculate the CPU Utilization of Redis
+* 90 / cores
+
 
 
 
@@ -41,6 +44,7 @@ Swap Usage:
 
     * 0 at most times, must not exceed 50Mb
     * If exceeds 50, increase the memcached_connections_overhead parameter
+    * memcached_connections_overhead defines the amount of memory to be reserved for memached connections and other miscellaneous overhead.
     * Amount of memory to be allocated for connection
 
     Redis:
@@ -54,6 +58,7 @@ Evictions:
 ==========
 
 * Evicting a tenant from an aparament building
+* An Eviction occurs when a new item needs to be added and an old item must be removed due to lack of free space in the system.
 
     Memcached:
     ----------
