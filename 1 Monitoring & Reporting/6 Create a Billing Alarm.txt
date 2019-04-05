@@ -1,0 +1,5 @@
+Create a Billing Alarm:
+=======================
+
+* Create an Billing Alarm from CloudWatch
+* Send the alarm notification to your email address.
