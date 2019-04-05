@@ -23,6 +23,9 @@ CloudWatch Introduction:
     * EMR Job Flows
     * Redshift
 
+    Other:
+    ======
+
     * SNS Topics
     * SNS Queues
     * Opsworks
