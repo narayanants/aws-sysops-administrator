@@ -19,9 +19,9 @@ CloudTrail - Monitors API calls
 =============================================
 
 * CloudWatch Metrics
+* CloudTrail logs
 * Access Logs
 * Request Tracing
-* CloudTrail logs
 
 
 CloudWatch Metrics:
@@ -33,7 +33,7 @@ Access Logs:
 
 * Capture information about requests sent to your load balancer.
 * Access logs can store data where the EC2 instance has been deleted.
-* Optional feature of ELB and is disabled y default
+* Optional feature of ELB and is disabled by default
 * Captures and stores them in Amazon S3
 
 
