@@ -8,7 +8,7 @@ Tags:
     * Metadata (data about data)
 
     * Tags can sometimes be inherited
-     - Autoscaling,CloudFormation and Elastic Beanstalk can create other resources.
+     - Autoscaling, CloudFormation and Elastic Beanstalk can create other resources.
 
 Resource Groups:
 ================
