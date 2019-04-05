@@ -1,0 +1,6 @@
+CloudWatch Custom Dashboard Lab:
+=================================
+
+* CloudWatch Dashboards are multi-region and can display any widget to any region.
+* To add the widget, change the region that you need and then add the widget to the dashboard.
+* Remember to save 
