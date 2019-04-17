@@ -44,7 +44,7 @@ Host level metrics
     Status Check
 
 Exam Tip:
-===========
+=========
 
 * RAM utilization is a custom metric! 
 * By default, EC2 Monitoring is 5 minutes.
