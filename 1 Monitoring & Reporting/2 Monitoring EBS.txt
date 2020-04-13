@@ -40,3 +40,9 @@ warning - Degraded or severely degraded
 impaired - Stalled
 insufficient data - Insufficient data
 
+Exam Tip:
+=========
+
+-  Degraded or severely degraded - warning
+-  Stalled or Not available - impaired
+
