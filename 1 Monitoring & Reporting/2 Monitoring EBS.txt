@@ -25,11 +25,11 @@ Burst Capacity:
 EBS CloudWatch Metrics:
 =======================
 
-* VolumeReadOps
-* VolumeWriteOps
+* VolumeReadOps - Total no of IO/ops in a specified period of time.
+* VolumeWriteOps - Total no of IO/ops in a specified period of time.
 * VolumeReadBytes
 * VolumeWriteBytes
-* VolumeQueueLength
+* VolumeQueueLength - No of read and write ops request waiting to be completed in a specific period of time.
 * VolumeThroughputPercentage
 
 Volume Status Check:
@@ -45,4 +45,6 @@ Exam Tip:
 
 -  Degraded or severely degraded - warning
 -  Stalled or Not available - impaired
+- VolumeQueueLength - No of read and write ops request waiting to be completed in a specific period of time.
+
 
