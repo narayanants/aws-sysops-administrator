@@ -1,5 +1,5 @@
 EBS - Different Volumes Types:
-===============================
+==============================
 
 * General Purpose SSD - gp2
 * Provisioned IOPS SSD - IO1
