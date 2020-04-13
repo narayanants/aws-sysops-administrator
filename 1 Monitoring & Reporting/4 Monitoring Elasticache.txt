@@ -79,4 +79,19 @@ Concurrent connection:
     * no recommended settings
     * Large and sustained spike in the number of concurrent connections, either mean a spike or your application not releasing connections as it should be.
 
+Exam Tips:
+==========
+
+    - Two types of caching engines
+        - Memcached
+        - Redis
+
+    4 types of Monitoring Caching engines
+
+        - CPU Utilization
+        - Swap space
+        - Evictions
+        - Concurrent connections
+    
+
 
