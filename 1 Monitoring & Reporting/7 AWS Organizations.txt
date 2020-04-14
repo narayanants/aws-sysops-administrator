@@ -45,7 +45,7 @@ Consolidated Billing:
 Exam Tips:
 ===========
 
-* Centrally manage Policies across multiple AWS accounts
+* Centrally manage Policies
 * Control access to AWS Services
 * Automate AWS account creation and Management
-* Consolidate Billing Across multiple AWS accounts
+* Consolidate Billing
