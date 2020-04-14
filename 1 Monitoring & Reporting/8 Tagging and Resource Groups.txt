@@ -32,3 +32,14 @@ Types of Resource Group:
     * Classic Resource Group
     * AWS Systems Manager
 
+Exam Tips:
+==========
+
+    - Add tags to multiple EC2 instances at once
+    - Use Resource Groups for grouping the servers by tags
+    - Tag Everything!
+    - Resource groups are a way of grouping tags!
+    - Use Resource Groups with AWS Systems Manager to automate tasks
+
+
+
