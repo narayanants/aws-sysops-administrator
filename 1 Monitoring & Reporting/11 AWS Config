@@ -1,0 +1,79 @@
+AWS Config:
+===========
+
+    - AWS Resource inventory
+    - Configuration history
+    - Configuration change notifications to enable security and governance.
+
+Enables:
+========
+    - Compliance Auditing
+    - security Analysis
+    - Resource Tracking
+
+Provides:
+=========
+
+    - Config snapshots and logs config changes of AWS Resources
+    - Automated Compliance Checking
+    
+
+Key Components:
+===============
+    - Config Dashboard
+    - Config Rules
+        - Managed
+        - Custom
+    - Resources
+    - Settings
+
+
+AWS services -> Event -> AWS Config -> AWS Config Bucket -> Event Target -> Lambda Standard or custom Rules
+
+
+Terminology:
+------------
+
+    - Config Items
+        - Point-in-time resource or attributes
+    - Config snapshots
+        - Collection of config Items
+    - Config Stream
+        - Stream of changes config Items
+    - Config history
+        - collection of config items for a resource over time
+    - config recorder
+        - config of config that records and stores config items
+    
+Recorder Setup:
+---------------
+    - Logs config for accounts in region
+    - Stores in S3
+    - Notifies SN
+
+What we can see:
+================
+
+    - Resource Type
+    - Resource ID
+    - Compliance
+    - Timeline
+        - Config Details
+        - Relationships
+        - changes
+        - CloudTrail Events
+
+Compliance Checks:
+------------------
+    - Trigger
+        - Trigger
+        - Config Snapshot delivery (filterable)
+
+    - Managed Rules
+        - About 40 (at time of recording)
+        - Basic, but, fundamental
+    
+
+
+
+
