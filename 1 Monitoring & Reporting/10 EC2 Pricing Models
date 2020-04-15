@@ -1,0 +1,10 @@
+EC2 Pricing Models:
+===================
+
+    - On-Demand - Fixed Rate by the hour
+    - Reserved  - Provide you with capacity Reservation
+        - Standard RI - 75% off
+        - Convertible RI - 54% off 
+        - Scheduled RI - 
+    - Spot Instances - Flexible start and End Times, bid pricing
+    - Dedicated Instances - Dedicate hardware and great for licensing.
