@@ -1,0 +1,6 @@
+AWS Config vs CloudWatch vs CloudTrail
+======================================
+
+    - CloudWatch monitors performance
+    - CloudTrail monitors API Calls in the AWS Platform
+    - AWS Config records the state of your AWS Environment and can notify you of changes
