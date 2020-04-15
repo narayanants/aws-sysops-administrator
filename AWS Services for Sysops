@@ -1,0 +1,106 @@
+AWS Services for the Sysops Admin Exam:
+=======================================
+
+Monitoring and Reporting:
+-------------------------
+
+Host level metrics:
+-------------------
+    - CPU
+    - Network Throughput
+    - Disk IO
+    - Status Check
+
+
+CloudWatch components:
+----------------------
+    - Dashboards
+    - Metrics
+    - Logs
+    - Events
+
+Monitoring EBS:
+--------------- 
+    - VolumeReadOps - Total no of IO/ops in a specified period of time.
+    - VolumeWriteOps
+    - VolumeQueueLength - No of read and write ops request waiting to be completed in a specific period of time.
+
+Monitoring ELB:
+---------------- 
+    - CloudWatch Metrics
+    - CloudTrail Logs
+    - Access Logs
+    - Request Tracing
+
+Monitoring ElasticCache:
+------------------------
+    - Memcached
+    - Redis
+    - CPUUtilization    
+    - Swap Space - Size of Swap file = Size of RAM
+    - Evictions - new item needs to be added and an old item must be removed due to lack of free space
+    - Concurrent connections - Large and sustained spike in Concurrent connections.
+
+CloudWatch Dashboards:
+----------------------
+    - CloudWatch Dashboards are multi-region and can display any widget to any region.
+    - Create a dashboard, add an widget and save it.
+
+CloudWatch Alarms:
+------------------
+    - Create an billing alarm from CloudWatch
+    - Send the alarm notification to your email address using an SNS Notification
+
+AWS Organizations:
+------------------
+
+    * Centrally manage Policies
+    * Control access to AWS Services
+    * Automate AWS account creation and Management
+    * Consolidate Billing
+
+Resource Groups:
+----------------
+    - Tags are K:V Pairs attached to AWS resources
+    - Add tags to multiple EC2 instances at once
+    - Use Resource Groups for grouping the servers by tags
+    - Tag Everything!
+    - Resource groups are a way of grouping tags!
+    - Use Resource Groups with AWS Systems Manager to automate tasks
+
+Cost Explorer:
+--------------
+
+    - Use tag to tag your Resources
+    - configure tags for cost centers
+    - Activate cost allocation tags to track your costs by tags
+    - Comes up frequents in sysops exam
+
+EC2 Pricing Models:
+===================
+
+    - On-Demand - Fixed Rate by the hour
+    - Reserved  - Provide you with capacity Reservation
+        - Standard RI - 75% off
+        - Convertible RI - 54% off 
+        - Scheduled RI - 
+    - Spot Instances - Flexible start and End Times, bid pricing
+    - Dedicated Instances - Dedicate hardware and great for licensing.
+
+
+AWS Config:
+===========
+
+    - AWS Resource inventory
+    - Configuration history
+    - Configuration change notifications to enable security and governance.
+
+AWS Config vs CloudWatch vs CloudTrail
+======================================
+
+    - CloudWatch monitors performance
+    - CloudTrail monitors API Calls in the AWS Platform
+    - AWS Config records the state of your AWS Environment and can notify you of changes
+
+
+
