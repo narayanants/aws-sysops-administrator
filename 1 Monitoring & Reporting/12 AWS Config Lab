@@ -1,3 +1,29 @@
 AWS Config Lab:
 ==============
 
+Exam Tips:
+==========
+
+Compliance Checks
+    - Trigger
+        - Periodic
+        - Config changes
+    - Managed Rules
+        - About 40 (at time of recording)
+        - Basic ,but fundamental
+
+Permissions needed for Config
+    - AWS config requirements an IAM role with 
+        - Read only permissions to the recorded resources
+        - Write access to S3 logging bucket
+        - Publish access to SNS
+
+Restrict Access:
+    - Users need to be authenticated with AWS and have the appropriate permissions set via IAM policies to gain access
+    - Only admin needing to setup and manage Config require full access
+    - Provide read only permissions for Config day-to-day use.
+
+Monitoring Config: 
+
+    - Use CloudTrail with Config to provide deeper insight into resources.
+    - Use CloudTrail to monitor access to Config such as someone stopping the Config Reader.
