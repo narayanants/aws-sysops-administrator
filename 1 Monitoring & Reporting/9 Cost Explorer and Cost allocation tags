@@ -1,0 +1,15 @@
+Cost Explorer and Cost allocation tags
+======================================
+
+- View and analyze your costs and usage.
+- Cost allocation tags
+- After you or aws applies tags to AWS Resources and you activate those tags in the Billing and Cost Management, AWS generates a cost allocation report as a Comma Separated Value (CSV)
+
+
+Exam Tips:
+==========
+
+    - Use tag to tag your Resources
+    - configure tags for cost centers
+    - Activate cost allocation tags to track your costs by tags
+    - Comes up frequents in sysops exam
