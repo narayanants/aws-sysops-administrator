@@ -1,0 +1,53 @@
+Elastic Load Balancer:
+======================
+
+    - Application Load Balancer - Layer 7 - Application Layer
+    - Network Load Balancer - Layer 4 - Transport Layer 
+    - Classic Load Balancer 
+
+    Application Load Balancer
+    -------------------------
+
+        - HTTP and HTTPS Traffic
+        - Layer 7
+
+    Network Load Balancer:
+    ----------------------
+
+        - TCP Traffic where extreme performance is required
+        - Millions of requests/second and maintaining performance
+        - Use for extreme performance
+
+    Classic Load Balancer:
+    =======================
+
+        - Legacy
+        - HTTP/HTTPS Traffic
+        - Layer 7
+        - X-Forwarded and Sticky Sessions
+
+
+    Pre-warming your Load   Balancer:
+    =================================
+
+    - Huge Black Friday Sale
+    - Sales Director tells there will be spike in Traffic
+
+
+    AWS needs:
+        - Start and end dates
+        - Requests rate per second
+        - Total size of typical requests
+
+
+Exam Tips:
+===========
+
+
+    - Application Load Balancer - Layer 7 - Application Layer
+    - Network Load Balancer - Layer 4 - Transport Layer 
+    - Classic Load Balancer
+
+    - Pre-warming your Load Balancer for sudden and unexpected spike in Traffic
+    - Static IP addresses can be provided by a Network Load Balancer. 1 per subnet
+
