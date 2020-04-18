@@ -1,0 +1,20 @@
+Aurora Lab:
+===========
+
+    - Refer video for Aurora Lab
+
+
+Exam Tips:
+===========
+
+    Aurora- Encyrption at Rest is turned on by default
+            once on, all Read Replicas will be encrypted
+
+    Failover - 
+
+        - It is defined by tiers
+        - The lower the tier the higher the priority with Tier0 being the higher priority
+    
+    Cross Region Replica:
+
+        - Entire Aurora Cluster
