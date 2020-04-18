@@ -1,0 +1,35 @@
+Elasticity and Scalability 101:  - Database Focussed
+===============================
+
+    - Think of a Rubber Band
+    - Scalability - longer time frames
+
+
+    EC2 : 
+        
+        Increase instance size as required - Scalability
+        Increase the no of instances based on ASG - Elasticity
+
+    DynamoDB:
+
+        - Unlimited amount of storage (Scalability)
+        - Increase additional IOPS for additional Spike (Elasticity)
+
+    RDS:
+
+        Increase instance size , eg from small to medium - Scalability
+        not very elastic - Elasticity
+
+    Aurora:
+
+        Modify instance type - Scalability
+        Aurora Serverless - Elasticity
+
+    
+    Exam Tips:
+    ===========
+
+        Elasticity - Scale with Demand
+        Scalability - Scale out infrastructure
+
+
