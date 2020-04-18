@@ -101,3 +101,15 @@ Metric Granularity:
 CloudWatch can be used on-premise as well.
 Download and install SSM Agent and CloudWatch Agent.
 
+
+CloudWatch Features:
+====================
+
+    - Dashboards
+    - Alarms
+    - Metrics
+    - Logs
+    - Events
+
+    
+
