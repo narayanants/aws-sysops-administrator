@@ -1,0 +1,35 @@
+ELB Error Messages:
+======================
+
+    - 4XX errors - Client Side
+    - 5xx errors - Server side errors
+    - 200 - Success
+
+Sample Error CodeS:
+=================
+
+     400 - Bad Request
+     401 - unauthorized
+     403 - Forbidden
+     460 - Client closed connection
+     463 - X-Forwarded-for request header
+
+
+Server side Errors:
+===================
+
+    500 - Internal server errors
+    502 - Bad Gateway
+    503 - Service Unavailable
+    504 - Gateway Timeout
+    561 - unauthorized
+
+
+Exam Tips:
+===========
+
+     4xx - Client side errors
+     5xx - server side errors
+
+
+
