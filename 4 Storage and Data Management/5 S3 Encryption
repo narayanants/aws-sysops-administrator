@@ -1,0 +1,20 @@
+S3 Encryption:
+==============
+
+Encryption:
+============
+
+    In Transit:
+        SSL/TLS
+    
+
+    At Rest:
+    ---------
+
+        * Client Side
+        * Server side
+            using SSE - S3
+            using SSE - KMS
+            SSE - Customer Provided Keys
+        * Control access to buckets using Bucket Policies and Bucket ACL
+        * By Default S3 buckets are private and all objects stored inside it are private.
