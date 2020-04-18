@@ -1,0 +1,7 @@
+Encrypting RDS instances:
+=========================
+
+ - Take a snap of the existing RDS instances
+ - Copy snap to another region
+ - Encrypt the snap before copying
+ - Restore the snap
