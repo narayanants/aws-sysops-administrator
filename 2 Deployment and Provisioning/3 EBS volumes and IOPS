@@ -1,0 +1,38 @@
+EBS Volumes and IOPS:
+=====================
+
+    - EBS - Virtual Disks attached to EC2 instance
+    - can be used to create a File system
+    - Focus on SSD backed storage - OS and DB's which are I/O intensive
+ 
+
+EBS SSD IOPS:
+=============
+
+    
+    
+    gp2 - General Purpose -  boot Volumes
+    io1 - Provisioned IOPS - I/O intensive
+
+
+    gp2 - min 100 IOPS and max of 16,000 IOPS
+    io1 - min 50 IOPS to a maximum of 64,000 IOPS
+
+
+What happens when you hit the IOPS limit of your Volume?
+
+    - I/o Requests queueing
+    - App lagging
+
+
+    gp2 - 5.2TB - 16,000 IOPS
+    io1 - more than 16,000 IOPS
+
+
+Exam Tips:
+===========
+
+    -  IOPS - benchmark performance for SSD Volumes
+    -  IOPS is dependant on size of your Volume
+    -  Increase the volume size if your IOPS max is hit
+    
