@@ -1,0 +1,55 @@
+Read Replicas:
+=============
+
+    - Performance
+    - Read heavy DB workloads
+    - Replica of Production DB
+
+When to use Read Replicas:
+==========================
+
+    - Scaling beyond the compute or I/O
+    - Read heavy workloads
+
+Supported versions:
+====================
+
+    - MySQL - Async replication
+    - PostgreSQL - Async replication
+    - MariaDB - Async replication
+    - Aurora
+
+    Multi AZ Enabled:
+    ==================
+
+        - When creating a new Read Replica, AWS will take a snapshot of your DB
+
+        - Multi-AZ not Enabled
+            - 1 minute I/O Suspension
+        - Multi-AZ Enabled
+            - Snapshot of secondary DB
+            - No IO Suspension
+
+    Connecting to a Read Replica:
+    =============================
+
+        - Create a new Read Replica-  connect to its new endpoint DNS Address
+        - Promote the Read Replica to be standalone DB
+
+    Exam Tips:
+    ==========
+
+        5 Read Replicas for MySQL, PostgreSQL and MariaDB
+        Read Replicas in different regions
+        Replication is async, not sync
+        Built of Multi-AZ DB's
+        Can be Multi-AZ
+        Read Replicas of Read Replicas
+        DB snapshots and Automated Backups cannot be taken of Read Replicas
+        CloudWatch Metric - REPLICA LAG
+        Difference between Read Replicas and Multi AZ
+
+
+
+
+    
