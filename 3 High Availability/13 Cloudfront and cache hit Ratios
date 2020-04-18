@@ -1,0 +1,26 @@
+Cloudfront and Cache hit ratios:
+================================
+
+- CDN is a distributed set of servers
+
+
+Key Terminology:
+=================
+
+    - Edge Location - Location where content is cached
+    - Origin - Files that CDN will distribute
+    - Distribution - CDN which consists of a collection of Edge Locations
+
+
+    More requests the Cloudfront is able to serve from edge location, the better it works
+
+
+    How do you maximize cache hit ratio:
+    ====================================
+
+        - Specifying how long cloudfront caches your objects
+        - Caching based on Query String Parameters
+        - Caching based on Cookie values
+        - Caching based on Request headers
+        - Remove Accept-Encoding Header when Compression is not needed
+        - Serving media content using HTTP
