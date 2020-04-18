@@ -1,0 +1,113 @@
+S3 101:
+=======
+
+* Simple Storage service
+* Secure, scalable and durable object Storage
+* Founder of Dropbox uses S3.
+* Object based Storage
+* Data is Spread across Multiple Devices and facilities
+
+* Designed to withstand failure
+* Really Cheap
+
+* File size 0 - 5 TB
+* Unlimited Storage
+* File are stored in Buckets ( Just a Folder)
+* S3 is a universal namespace
+* DNS Address when u create a bucket.
+* Buckets name must be unique globally.
+* When you upload a file, status code 200 is given as response.
+
+
+Data Consistency Models for S3:
+===============================
+
+	* Read after Write for PUTS of new Objects
+	* Eventual Consistency for overwrite PUTS and DELETES (Updates are Atomic - New or old Data)
+
+S3 is a simple K:V pair
+
+	* Key
+	* Value
+	* Version ID (important for versioning)
+	* Metadata
+	* Subresources (ACL, Torrent)
+
+
+	* Build for 99.99 % Availability (SLA)
+	* 99.999999999%  durability for S3 info.
+	* Tiered Storage
+	* Lifecycle Management
+	* Versioning
+	* Encryption
+	* Secure data using ACL and Bucket Policies
+
+	Storage Tier's:
+	===============
+
+	* S3 - 99.99% availability, 99.999999999% durability stored reduantly across multiple devices and mutiple facilities.
+	* S3 -IA (Infrequently Accessed) - Data accessed less frequently. Lower Fee than S3 but charged retrival fee.
+	* S3 One Zone IA - Stored only in One Availability Zone.
+	* Reduced Redundancy Storage - Same Availability, 99.99 % durability.
+	* Glacier - very cheap. Data Archival. 3-5hrs to restore.
+
+	S3 - 99.99% Availability 99.9999999999% durability
+	S3 -IA - 99.9% Availability 99.99999999999% durability
+	S3 - One Zone IA - 99.5% availability 99.99999999999% durability
+	Glacier - No Availability, 99.99999999999% durability
+
+Glacier:
+=========
+
+	* Low Cost Data Archival Storage
+	* Expedidited
+	* Standard - takes 3-5 hours
+	* Bulk
+
+	S3 Transfer Accelaration:
+	=========================
+
+	* Fast, easy and secure way to transfer files over long distances between your end users and S3 bucket.
+	* Takes advantange of Amazon's Cloudfront CDN.
+
+
+
+Encryption:
+============
+
+	* Client Side
+	* Server side
+		using SSE -S3
+		using SSE - KMS
+		SSE - Customer Provided Keys
+	* Control access to buckets using Bucket Policies and Bucket ACL
+	* By Default S3 buckets are private and all objects stored inside it are private.
+
+Charges:
+=========
+
+	* Storage
+	* No of Requests
+	* Storage Management Pricing
+	* Data Transfer Pricing
+	* Transfer Accelaration (Takes advantange of Cloudfront)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
