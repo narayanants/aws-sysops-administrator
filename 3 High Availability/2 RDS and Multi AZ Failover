@@ -1,0 +1,32 @@
+RDS and Multi AZ Failover:
+==========================
+    
+    - Multi AZ - copy of DB on each AZ
+    - Read Replicas - 
+
+Multi - AZ:
+===========
+    - Copy of DB in another AZ
+    - Disastor Recovery only
+    - Not used for performance improvement
+
+Advantages:
+===========
+
+    - High Availability
+    - Backups and restores are taken from secondary
+    - Force a failover from one AZ to another by rebooting your instance.
+    - RebootDBInstance API call
+
+Exam Tips:
+===========
+
+    - not for Scaling
+    - Amazon handles the failover for you
+    - Backups and Restores are taken from secondary Multi AZ instance
+    - Read Replicas are used at Scale
+    - Force a failover from one AZ to another by rebooting your instance.
+    - RebootDBInstance API call
+
+
+    
