@@ -1,0 +1,16 @@
+EC2 Launch Issues:
+===================
+    EC2 instances may fail to Launch
+        - InstanceLimitExceededError    - 20 instances per region
+        - InsufficientInstanceCapacityError
+
+
+        Options to Resolve:
+
+            - Request fewer instances
+            - Wait a few minutes and try again
+            - Select a different instance type
+            - Try purchasing reserved instances
+
+    
+
