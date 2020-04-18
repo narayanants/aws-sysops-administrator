@@ -1,0 +1,27 @@
+EBS vs Instance Store:
+======================
+
+    - Instance Store - Temporary/Ephermal Storage
+    - EBS - Persistent
+
+
+    Root Volumes
+    Additional Volumes
+
+    Root Volumes are terminated on EC2 Termination
+
+
+    EBS backed Instance can be stopped
+    Instance Storage volumes CANNOT be stopped
+
+
+Exam Tips:
+=========
+
+    - Delete on Termination is default for all EBS Root Device Volumes
+    - Set this to false however only at instance creation time
+    - Additional Volumes will persist automatically
+    - Delete these manually when you delete an instance.
+    - Instance Store is know as ephermal Storage
+
+
