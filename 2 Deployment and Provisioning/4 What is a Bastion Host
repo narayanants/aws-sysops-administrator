@@ -1,0 +1,22 @@
+Bastion Hosts:
+=============
+
+    - Bastion host is located in the Public Subnet which has internet access
+    - Connect to EC2 instances using SSH
+    - You then use the Bastion Host to initate an SSH/RDP session over the private Subnet
+    - Safely admin EC2 instances without exposing to the internet
+
+
+    Exam Tips:
+    ==========
+
+    - Bastion is a host that is connected to a Public Subnet
+    - Connect over internet
+    - Securely connect instances in a private Subnet
+    - Allows you to safely administer your EC2 instances without exposing them to internet
+    - Incoming SSH/RDP instances
+
+    
+        
+
+
