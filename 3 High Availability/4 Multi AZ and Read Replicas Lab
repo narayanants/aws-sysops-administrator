@@ -1,0 +1,10 @@
+Multi AZ and Read Replicas Lab:
+===============================
+
+   -  Launch an RDS instance with Multi- AZ and Read Replica
+   -  You need to turn on automatic backups for to create a Read Replicas
+
+How to simulate a failover?
+
+    - Actions => Reboot => Reboot with a failover
+    
