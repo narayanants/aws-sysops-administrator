@@ -1,0 +1,25 @@
+Elasticache:
+=============
+
+-   In-memory cache in the cloud
+-   Improve latency and throughput for many read-heavy workloads
+-   Caching improves performance by storing critical pieces of data for low-latency access
+
+
+Types:
+======
+
+-   Memcached - No Multi AZ
+-   Redis - Multi AZ 
+
+
+Monitoring Elasticache:
+=======================
+
+    - CPU Utilization
+    - Swap Space
+    - Evictions
+    - Concurrent connections
+
+
+
