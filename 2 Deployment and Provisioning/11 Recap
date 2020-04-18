@@ -1,0 +1,69 @@
+Recap of Deployment and Provisioning:
+======================================
+
+EC2 Launch issues:
+==================
+
+    InstanceLimitExceededError  - Exceeded the no of instaces in Region
+    InsufficientInstanceCapacityError - no available On-Demand capacity to service your request
+
+
+EBS volumes and IOPS:
+=====================
+
+    - performance benchmark for SSD volumes
+    - increase the volume for more IOPS
+    - gp2 - 16,000
+    - io1 - 32,000
+
+Bastion Host:
+=============
+
+    - host connected to the public subnet 
+    - connect over the instances
+    - securely connected to instances in private subnet
+    - Allows you to securely administer instances without exposing them to internet
+    - Incoming SSH/RDP only
+    - Doesn't enable any outgoing requests
+
+Load Balancers:
+==============
+
+    Application - Layer 7
+    Network - Layer 4
+    Classic - Legacy
+
+    Pre-warming the load balancer for sudden spike in traffic
+    Static IP addresses can be provided for Network Load Balancers, 1 per subnet
+    Place ALB behind an NLB to get benefit of both
+
+
+ELB Error Messages:
+====================
+
+    4xx - Client side errors
+    5xx - Server side errors
+
+ELB CloudWatch Metrics:
+=======================
+
+    Creat an Alarm to send your notification if a certain metric reaches a user-defined limit
+    HealthyHostCount
+    UnHealthyHostCount
+    HTTPCode_Backend_2xx,3xx,4xx,5xx
+    SurgeQueueLength - Classic
+    SpillOverCount - Classic
+
+Systems Manager:
+================
+
+    - visibility and control over your AWS infrastructrue
+    - Integrates with CloudWatch, Trusted Advisor,config,CloudTrail
+    - Organize inventory and logically group resources together
+    - Run command -common ops tasks without logging into each one
+
+
+
+
+    
+    
