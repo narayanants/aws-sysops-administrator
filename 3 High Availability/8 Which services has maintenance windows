@@ -1,0 +1,17 @@
+Which service has maintenance windows:
+======================================
+    
+ Services with maintenance windows include:
+
+    - RDS
+    - Elasticache
+    - Redshift
+    - DynamoDB DAX
+    - Neptune
+    - Amazon DocumentDB
+
+ Services without maintenance windows include:
+
+    - EC2
+    - Lambda
+    - Amazon QLDB
