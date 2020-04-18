@@ -2,8 +2,8 @@ AWS Config:
 ===========
 
     - AWS Resource inventory
-    - Configuration history
-    - Configuration change notifications to enable security and governance.
+    - Config history
+    - Config change notifications to enable security and governance.
 
 Enables:
 ========
