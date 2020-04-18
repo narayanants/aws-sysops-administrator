@@ -1,0 +1,12 @@
+Troubleshooting potential Autoscaling issues:
+=============================================
+
+    - No Key Pair
+    - SG doesn't exist
+    - ASG config is not working correctly
+    - ASG group not found
+    - Instance type specified not supported in AZ
+    - AZ is no longer supported
+    - Invalid EBS device mapping
+    - Autoscaling service not enabled in your account
+    - Attempting to attach and EBS Block device to an instance-store AMI
