@@ -1,0 +1,15 @@
+MFA Delete:
+===========
+
+    - Revert to older versions of your S3 Object
+    - Multiple versions of the same object in the same bucket
+    - versioning does a delete marker
+    - remove delete marker, file is restored
+
+MFA Delete:
+===========
+
+    - Valid code from MFA Device
+    - MFA also needed to suspend/reactivate versioning on an S3 bucket
+    
+
