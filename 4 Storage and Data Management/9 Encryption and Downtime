@@ -1,0 +1,10 @@
+Encryption and Downtime:
+========================
+
+    - Encryption can be enabled only during creation
+    - EFS - Shared file system using NFS Protocl
+    - RDS - Encryption at creation time
+    - EBS Volumes - Encryption during instance creation
+
+    S3 Buckets - Enable encrpytion any time you like
+    S3 Objects - Enable encrpytion any time you like
