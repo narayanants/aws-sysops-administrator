@@ -1,0 +1,28 @@
+ELB Cloudwatch Metrics:
+======================
+
+    - Push metrics to Cloudwatch
+    - System is performing as expected
+    - Cloudwatch Alarm 
+    - Metrics are gathered at 60 second intervals
+
+
+Metrics:
+=========
+
+     BackendConnectionErrors
+     HealthyHostCount        - number of health instances
+     UnHealthyHostCount     - number of health instances
+     HTTPCode_Backend_2xx,3xx,4xx,5xx
+
+Performance Metrics:
+=====================
+
+    - Latency   - no of seconds for registered instances to respond
+    - RequestCount - no of requests completed in a specific intervals
+    - SurgeQueueLength - no of pending requests, max queue size is 1024
+    - SpillOverCount - no of requests rejected
+
+    
+
+
