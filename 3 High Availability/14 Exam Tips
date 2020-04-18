@@ -1,0 +1,44 @@
+Exam Tips:
+==========
+
+ Elasticity - Scale with Demand (short term)
+ Scalability - Scale out infra (long term)
+
+
+RDS 
+====
+
+    Multi AZ:
+        - Disaster Recovery
+
+    Read Replicas:
+        - 5 for MySQL, PostgreSQL & MariaDB
+        - Performance
+
+    Failover is automatic
+    Read Replicas in different regions
+    Replication is async only
+    can be built of Multi-AZ
+    Key Metric is REPLICA LAG
+
+
+Elasticache:
+=============
+
+    - Memcached
+    - Redis
+
+Metrics:
+========
+
+    - CPU Utilization
+    - Swap Space
+    - Evictions
+    - Concurrent Connections
+
+Aurora:
+=======
+
+    - MySQL and PostgreSQL compatible
+    - Encryption at REST is turned on at REST
+
