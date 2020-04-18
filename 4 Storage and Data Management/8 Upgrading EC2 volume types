@@ -1,0 +1,28 @@
+Upgrading EC2 Volume types:
+===========================
+
+Volumes and Snapshots:
+=======================
+
+    - Volumes exist on EBS
+    - Snapshots exist on S3
+    - Snapshots are point-in-time copies of Volumes
+    - Snapshots are incremental
+    - First Snapshot take some time
+
+
+    Root Device Volumes:
+    =====================
+
+    - Create snap will instance is running
+    - Create AMIs of both Snapshots and Volumes
+    - Change EBS volumes on the fly
+    - Volumes will be in the same AZ as EC2 instance
+    
+
+    Snapshots of encrypted volumes are encrypted automatically
+    Volumes restored from encrypted Snapshots are also encrypted automatically
+    Share snaphots with other people, but only if they are unencrypted
+    Snapshots can be shared with other AWS accounts
+    
+
