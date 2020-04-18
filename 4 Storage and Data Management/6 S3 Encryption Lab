@@ -1,0 +1,6 @@
+Setting up Encryption in an S3 Bucket:
+========================================
+
+    - Create an S3 Bucket
+    - Policy for enforcing Server side Encryption
+    
