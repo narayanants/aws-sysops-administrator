@@ -1,0 +1,35 @@
+Aurora 101:
+===========
+
+    - Highly available RDS DB
+    - MySQL and PostgreSQL
+    - very low pricing
+
+
+    Scaling:
+    ========
+
+        - 10GB storage, 10 GB increments to 64 TB
+        - 64 vCPU, 588 GiB
+        - 2 copies in each AZ and a minimum of 3 AZ
+        - Very reliable
+        - Self Healing
+
+    Aurora Replicas:
+    ================
+    
+        - Aurora Replicas
+        - MySQL Read Replicas
+
+    Aurora 100% CPU Utilization:
+    ============================
+
+        - Write issue - Scale up
+        - Read issue - Scale out
+
+    Aurora Serverless:
+    ==================
+
+        - on-demand autoscaling config for Aurora where DB starts, shut down and scale up and  down based on app needs
+        
+
