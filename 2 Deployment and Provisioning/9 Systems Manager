@@ -1,0 +1,26 @@
+Systems Manager:
+=================
+
+    - Management tool for visibility of entire infra
+    - Includes Run command
+    - Organize your inventory
+    - 
+
+    Run Command:
+    ===========
+
+        - Run predefined commands on EC2 instances
+        - Stop,start, re-size instance
+        - Attach/Detach EBS Volumes
+        - Run an Ansible playbook
+        - Run a shell script
+        - Apply patches and updates
+
+    Exam Tips:
+    ==========
+
+        - visibility and control over your AWS infra
+        - Integrate with CloudWatch Dashboards
+        - Organize inventory
+        - Run command - common ops tasks like patching and updates, attac/Detach EBS Volumes
+        
