@@ -103,4 +103,135 @@ AWS Config vs CloudWatch vs CloudTrail
     - AWS Config records the state of your AWS Environment and can notify you of changes
 
 
+Deployment and Provisioning:
+============================
+
+EC2 Launch Issues:
+===================
+
+    - InstanceLimitExceededError    - 20 instances per region
+    - InsufficientInstanceCapacityError
+
+EBS Volumes and IOPS:
+=====================
+
+    - EBS - Virtual Disks attached to EC2 instance
+    - can be used to create a File system
+    - Focus on SSD backed storage - OS and DB's which are I/O intensive
+    - IOPS - benchmark performance for SSD Volumes
+
+EBS SSD IOPS:
+=============
+
+    gp2 - General Purpose -  boot Volumes
+    io1 - Provisioned IOPS - I/O intensive
+
+
+    gp2 - min 100 IOPS and max of 16,000 IOPS
+    io1 - min 50 IOPS to a maximum of 64,000 IOPS
+
+
+What happens when you hit the IOPS limit of your Volume?
+
+    - I/o Requests queueing
+    - App lagging
+
+
+    gp2 - 5.2TB - 16,000 IOPS
+    io1 - more than 16,000 IOPS
+
+Bastion Hosts:
+==============
+
+    - Bastion is a host that is connected to a Public Subnet
+    - Connect over internet
+    - Securely connect instances in a private Subnet
+    - Allows you to safely administer your EC2 instances without exposing them to internet
+    - Incoming SSH/RDP instances
+
+ELB:
+====
+
+    - Application Load Balancer - Layer 7 - Application Layer
+    - Network Load Balancer - Layer 4 - Transport Layer 
+    - Classic Load Balancer
+
+    - Pre-warming your Load Balancer for sudden and unexpected spike in Traffic
+    - Static IP addresses can be provided by a Network Load Balancer. 1 per subnet
+
+ELB Error Messages:
+======================
+
+    - 4XX errors - Client Side
+    - 5xx errors - Server side errors
+    - 200 - Success
+
+Sample Error CodeS:
+=================
+
+     400 - Bad Request
+     401 - unauthorized
+     403 - Forbidden
+     460 - Client closed connection
+     463 - X-Forwarded-for request header
+
+
+Server side Errors:
+===================
+
+    500 - Internal server errors
+    502 - Bad Gateway
+    503 - Service Unavailable
+    504 - Gateway Timeout
+    561 - unauthorized
+
+ELB CloudWatch Metrics:
+=======================
+
+Metrics:
+=========
+
+     BackendConnectionErrors
+     HealthyHostCount        - number of health instances
+     UnHealthyHostCount     - number of health instances
+     HTTPCode_Backend_2xx,3xx,4xx,5xx
+
+Performance Metrics:
+=====================
+
+    - Latency   - no of seconds for registered instances to respond
+    - RequestCount - no of requests completed in a specific intervals
+    - SurgeQueueLength - no of pending requests, max queue size is 1024
+    - SpillOverCount - no of requests rejected
+
+
+Systems Manager:
+================
+Run Command:
+    ===========
+
+        - visibility and control over your AWS infra
+        - Integrate with CloudWatch Dashboards
+        - Organize inventory
+        - Run command - common ops tasks like patching and updates, attac/Detach EBS Volumes
+
+
+        - Run predefined commands on EC2 instances
+        - Stop,start, re-size instance
+        - Attach/Detach EBS Volumes
+        - Run an Ansible playbook
+        - Run a shell script
+        - Apply patches and updates
+
+Placement Groups:
+=================
+
+        Cluster - Same AZ
+        Partition - Multi AZ
+        Spread - instances are placed in distinct racks, with own network and power source
+
+
+
+
+
 
