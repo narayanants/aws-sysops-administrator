@@ -1,0 +1,37 @@
+Placement Groups:
+=================
+
+    - Allow you to control how your instances are deployed
+    - Types:
+        - Cluster - single AZ instances
+        - Partition - logical segments called Partition, each located in separate rack 
+        - Spread - each located in separate rack, with independent network and power
+
+    Cluster Placement Groups:
+    ==========================
+
+        - All instances are placed in a single AZ
+        - Not great for availability
+
+
+    Partition Placement Groups:
+    ===========================
+        - instances are created in logical segments called partitions, can be multi-AZ
+        - Each partition is in a separate rack
+        - partition cannot share racks
+        - Great for large distributed/ replicated workloads such as HDFS, HBase and Cassandra
+
+    Spread Placement Groups:
+    ========================
+
+        - instances are placed in distinct racks, with own network and power source
+        - Recommended for small Application
+
+    Exam TIps:
+    ===========
+
+        Cluster - Same AZ
+        Partition - Multi AZ
+        Spread - instances are placed in distinct racks, with own network and power source
+
+
