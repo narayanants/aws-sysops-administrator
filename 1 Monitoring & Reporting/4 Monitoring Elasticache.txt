@@ -1,7 +1,7 @@
 Monitoring ElasticCache:
 =========================
 
-* Cache most frequent database queriess
+* Cache most frequent database queries
 * ElasticCache consists of 2 engines
 
     * Memcached
