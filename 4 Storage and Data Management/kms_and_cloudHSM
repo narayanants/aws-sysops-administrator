@@ -1,0 +1,12 @@
+KMS:
+----
+
+ - used to store encryption keys
+ - not on dedicated hardware
+
+
+ CloudHSM:
+ ---------
+
+    - used to store encryption keys on dedicated hardware
+
