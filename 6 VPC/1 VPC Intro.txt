@@ -1,0 +1,14 @@
+VPC Introduction:
+----------------
+
+Classless Inter-Domain Routing - way of allocating IP Addresses
+
+
+
+CIDR - Base IP/Subnet Mask
+
+
+/8
+/16
+/24
+/32
