@@ -1,0 +1,11 @@
+EC2 instance types:
+-------------------
+
+    R - Ram - in memory caches
+    C - Compute - Compute/Databases
+    M - Memory - General Web App
+    I - I/O - Databases
+    G - GPU - Video Rendering/Machine Learning
+
+    T2/T3 - Burstable instances
+    
