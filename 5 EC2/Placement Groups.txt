@@ -1,0 +1,36 @@
+Placement Groups:
+-----------------
+
+EC2 Instance placement Strategy
+
+
+     - Cluster - in Single AZ
+     - Spread - in mutiple AZ
+     - Partition - spread across of Partitions within a AZ
+
+
+
+Cluster:
+-------
+
+     - Same Rack and same AZ
+     - Great Network
+     - If rack fails all EC2 are gone
+     - Big data that needs to complete fast
+
+
+Spread:
+-------
+
+    - Minimize failure risk
+    - All the EC2 are located in different hardware
+    - Reduced risk
+    - Limited to 7 instance per AZ per placement Groups
+
+Partition:
+----------
+
+    - instances spread across partitions across AZ
+    - 7 Partition per AZ
+
+
